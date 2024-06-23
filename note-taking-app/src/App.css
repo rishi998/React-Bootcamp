@@ -1,0 +1,91 @@
+
+.notelist{
+  /* border: 1px solid black; */
+  max-width: 400px;
+  margin: auto 50px;
+  border-radius: 25px;
+  background: conic-gradient(from .5turn at top right, darkseagreen, darkslategray);
+}
+.start-buttons{
+  max-width: 60%;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 50px 10px 50px;
+  padding: 0px 25px 0px 45px;
+}
+
+.shownote ,.addnote{
+  font-size: 1rem;
+  margin: auto;
+  border-radius: 10px;
+  background:conic-gradient(at bottom left, deeppink, cyan) ;
+}
+
+.text{
+  max-width: 100%;
+  padding-top: 0px;
+  font-size: 1rem;
+}
+.topic-items{
+  max-width: 100%;
+  display: flex;
+  margin:-10px 0px -30px 0px;
+}
+.btn{
+  max-width: 100%;
+  background:conic-gradient(from -135deg at -10% center, #ffa500, #ff7715, #ff522a, #ff3f47, #ff5482, #ff69b4);
+  height: 25px;
+  margin: 17px 5px 0px 200px ;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+}
+.main{
+  max-width: 800px;
+  display: flex;
+}
+.form{
+  /* border: 1px solid black; */
+  max-width: 300px;
+  border-radius: 10px;
+  background: conic-gradient(from -270deg at 50% -5%, yellow, yellowgreen);
+  margin: 72px 0px 0px 0px;
+}
+#line{
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+h2{
+  margin: auto;
+}
+
+.form h3{
+  font-size: 2rem;
+  margin: 15px 10px 15px 55px;
+}
+
+.form input{
+  margin: 10px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-radius: 5px;
+  border-style: double;
+  font-size: 1rem;
+}
+
+.noteitems{
+  margin-left:0px;
+}
+
+.form button{
+  width: 60px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 10px 100px;
+}

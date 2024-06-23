@@ -1,0 +1,58 @@
+.showstudentlist, .addstudentcontainer, .deletestudentcontainer{
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.container{
+  margin: 30px 10px 10px 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 350px;
+  background: conic-gradient(from .5turn at bottom center, lightblue, white);
+}
+
+.starttext{
+  /* border: 1px solid black; */
+  padding: 0px 15px 0px 20px;
+}
+.starttext p{
+  padding: 0px 10px 0px 10px;
+}
+.dropdown{
+  height: 30px;
+  margin: 10px 10px 10px auto;
+  padding: 0px 0px 0px 0px;
+  font-size: 16px;
+}
+
+.addstudentcontainer, .deletestudentcontainer,.showstudentlist{
+  max-width: 100%;
+  padding: 0px 0px 0px 10px;;
+}
+
+.addstudent, .deletestudent{
+  height: 30px;
+  margin: 10px 10px 10px auto;
+  padding: 0px 30px 0px 30px;
+  border-radius: 5px;
+}
+
+.addstudent{
+  background: conic-gradient(at top right, lightcyan, lightblue);
+  font-size: 17px;
+}
+
+.components1{
+  display: flex;
+  flex-direction: row;
+}
+
+.form{
+  border: 1px solid black;
+  margin:10px 10px 10px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 290px;
+}
